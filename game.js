@@ -27,7 +27,6 @@ function addItems() {
   createItem(370, 500, 'poison');
   createItem(100, 375, 'poison');
   createItem(125, 50, 'star');
-  createItem(800, 600, 'fondo');
 
 }
 
@@ -86,7 +85,7 @@ window.onload = function () {
   
   // before the game begins
   function preload() {
- game.stage.backgroundColor = '#555555';
+  game.stage.backgroundColor = '#68a5e2';
 
     
     //Load images
@@ -94,8 +93,6 @@ window.onload = function () {
     game.load.image('platform_2', 'platform_2.png');
     game.load.image('poison', 'poison.png');
     game.load.image('star', 'star.png');
-    game.load.image('fondo', 'fondo.jpg');
-    game.load.image('fondo', 'fondo.jpg', 800, 600);
     
     //Load spritesheets
     game.load.spritesheet('player', 'ash.png', 40, 57);
